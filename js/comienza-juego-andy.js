@@ -20,7 +20,7 @@ document
 document
   //pista aca falta addEventListenet decifra donde ponerlo
   .querySelector("#cierra-niveles")
-  .("click", ocultaMenuNiveles);
+  .addEventListener("click", ocultaMenuNiveles);
 
 document.querySelectorAll(".nivel").forEach(function(elemento) {
   elemento.addEventListener("click", cambiaNivel);
