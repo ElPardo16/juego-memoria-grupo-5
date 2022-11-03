@@ -27,3 +27,5 @@ function reparteTarjetas(lasTarjetas) {
     mesa.appendChild(tarjeta);
   });
 }
+
+// Brayan Duarte
