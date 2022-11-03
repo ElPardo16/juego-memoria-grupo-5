@@ -16,8 +16,8 @@ function descubrir() {
   if (descubiertas.length < 2) {
     return;
   }
-  //pista aca falta ubicar la palabra descubiertas para invicar la funcion de las cartas
-  comparar();
+  //pista aca falta ubicar la palabra descubiertas para invocar la funcion de las cartas
+  comparar(descubiertas);
   actualizaContador();
   tarjetasPendientes = document.querySelectorAll(".tarjeta:not(.acertada)");
   if (tarjetasPendientes.length === 0) {
