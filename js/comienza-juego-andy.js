@@ -4,7 +4,7 @@ escribeNiveles();
 // Asignamos eventos iniciales
   //pista aca un evento Click decifra donde ponerlo
 document.querySelectorAll(".reiniciar").forEach(function(elemento) {
-  elemento.addEventListener("", reiniciar);
+  elemento.addEventListener("click", reiniciar);
 });
 
 document
